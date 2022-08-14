@@ -36,6 +36,10 @@ app.use(express.json());
 
 // app.use(routes);
 
+app.get("*", (req, res) => {
+  res.status(404).sendFile(path.join(__dirname, "./public/404.html"));
+});
+
 db.once("open", () => {
   app.listen(PORT, () => {
     console.log(`🌍 Now listening on localhost:${PORT}`);
@@ -44,9 +48,7 @@ db.once("open", () => {
   });
 });
 
-// app.get("*", (req, res) => {
-//   res.status(404).sendFile(path.join(__dirname, "./public/404.html"));
-// });
+
 
 // call the async function to start the server
 // startApolloServer(typeDefs, resolvers);
