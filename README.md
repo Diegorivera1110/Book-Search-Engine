@@ -14,10 +14,10 @@
   - [Questions](#questions)
 
   ## Installation
-  In order to install you must clone this repository and once that is complete you must run `npm install` in the terminal at the root of the repository. In order to run both servers at the same time you must be in the root of the repository and rum `npm start`. 
+  In order to install, you must clone this repository and once that is complete you must run `npm install` in the terminal at the root of the repository. To run both servers at the same time, you must be at the root of the repository and rum `npm start`. 
 
   ## Usage
-  The primary use of this application is to allow users to search books and when thay have signed up can save books to a list attached to their account. Searched books will show the user the title, author, description, and an image of the book's cover.
+  The primary use of this application is to allow users to search books and when they have signed up can save books to a list attached to their account. Searched books will show the user the title, author, description, and an image of the book's cover.
 
   ## Credits
   Diego Rivera
