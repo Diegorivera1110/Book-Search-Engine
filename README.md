@@ -3,7 +3,7 @@
   ## Description
   This project's goal was to refactor a fully functional Google Books API from using a RESTFul API to a GraphQL API built with Apollo Server. This application was built using the MERN stack with React for the front end, MongoDB database, and Node.js/Express.js server and API. The refactored version has been deployed through Heroku (https://safe-dusk-63747.herokuapp.com/). This app allows users to search any book as well as signup for an account that allows you to save any searched books to that account. <br />
 
-  ![screenshot](./assets/screenshot/Capture.PNG);
+  ![screenshot](./assets/screenshot/Screenshot%202022-10-05%20215859.png);
 
   ## Table of Contents
   - [Installation](#installation)
